@@ -6,7 +6,7 @@ public class Clase1 {
     public int tabla;
     
     public static int factorial(  int ingresar ) {
-      int fact = ingresar;
+      int fact = 1;
       for( int i = 1; i <= ingresar; i++ ) {
          fact *= i;
       }
